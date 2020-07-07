@@ -5,8 +5,13 @@ public class AdditionFormula {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Give the first number:");
+        int value = Integer.valueOf(scanner.nextLine());
+        System.out.println("Give the second number:");
+        int valueTwo = Integer.valueOf(scanner.nextLine());
+        System.out.println(value + " + " + valueTwo + " = " + (value+valueTwo));
 
-        // write your program here
+
 
     }
 }
