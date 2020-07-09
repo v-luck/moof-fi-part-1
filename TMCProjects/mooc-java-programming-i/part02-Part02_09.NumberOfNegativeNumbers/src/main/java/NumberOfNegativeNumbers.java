@@ -8,8 +8,14 @@ public class NumberOfNegativeNumbers {
         Integer amtOfNegNumbers = 0;
         while (true) {
             System.out.println("Give a number:");
-
+            Integer value = scanner.nextInt();
+            if (value < 0) {
+                amtOfNegNumbers += 1;
+            } else if (value == 0) {
+                break;
+            }
         }
+        System.out.println("Number of negative numbers: " + amtOfNegNumbers);
 
 
     }
