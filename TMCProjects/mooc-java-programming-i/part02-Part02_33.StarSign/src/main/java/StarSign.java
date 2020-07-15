@@ -19,18 +19,41 @@ public class StarSign {
     }
 
     public static void printStars(int number) {
-        // first part of the exercise
+        String dog = "";
+        for (int i = 1; i <= number; i++) {
+            dog += "*";
+        }
+        System.out.println(dog);
+
     }
 
     public static void printSquare(int size) {
-        // second part of the exercise
+        String dog = "";
+        for (int i = 1; i <= size; i++) {
+            dog += "*";
+        }
+        for (int i = 1; i <= size; i++) {
+            System.out.println(dog);
+        }
+
+
     }
 
     public static void printRectangle(int width, int height) {
-        // third part of the exercise
+        String wide= "";
+        for (int i=1; i <= width; i++) {
+            wide += "*";
+        }
+        for (int i=1; i <= height; i++) {
+            System.out.println(wide);
+        }
     }
 
     public static void printTriangle(int size) {
-        // fourth part of the exercise
+        String dog = "";
+        for (int i = 1; i <= size; i++) {
+            dog += "*";
+            System.out.println(dog);
+        }
     }
 }
