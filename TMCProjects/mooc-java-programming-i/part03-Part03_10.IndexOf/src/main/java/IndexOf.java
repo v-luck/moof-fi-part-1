@@ -16,6 +16,13 @@ public class IndexOf {
 
             list.add(input);
         }
+        System.out.println("Search for?");
+        int userSearch = scanner.nextInt();
+        for (int i = 0; i < list.size(); i ++) {
+            if (list.get(i) == userSearch) {
+                System.out.println(userSearch + " is at index " + i);
+            }
+        }
 
         System.out.println("");
 
