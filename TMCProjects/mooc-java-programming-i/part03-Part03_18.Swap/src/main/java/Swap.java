@@ -5,7 +5,7 @@ public class Swap {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] array = new int[5];
+        int [] array = new int[5];
         array[0] = 1;
         array[1] = 3;
         array[2] = 5;
@@ -18,6 +18,14 @@ public class Swap {
             index++;
         }
         System.out.println("");
+
+        System.out.println("Give two indices to swap:");
+        int userValueOne = scanner.nextInt();
+        int userValueTwo= scanner.nextInt();
+        int placeHolder = array[userValueOne];
+        array[userValueOne] = array[userValueTwo];
+        array[userValueTwo] = placeHolder;
+
 
         // Implement here
         // asking for the two indices
