@@ -7,6 +7,9 @@ public class AVClub {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             String userValue = scanner.nextLine();
+            if (userValue.equals("")) {
+                break;
+            }
             String[] brokenUserValue =userValue.split(" ");
             for (String word : brokenUserValue) {
                 if (word.contains("av")) {

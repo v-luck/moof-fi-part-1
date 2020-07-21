@@ -12,7 +12,9 @@ public class LineByLine {
             }
             String[] brokenUserInput = userInput.split(" ");
             for (String word : brokenUserInput) {
-                System.out.println(word);
+                if (word.contains("av")) {
+                    System.out.println(word);
+                }
             }
 
         }
