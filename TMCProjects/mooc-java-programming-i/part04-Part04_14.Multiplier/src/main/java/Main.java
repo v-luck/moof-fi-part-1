@@ -5,7 +5,10 @@ public class Main {
         // Test your Multiplier class here
 
         // Multiplier multiplyByThree = new Multiplier(3);
+        Multiplier test = new Multiplier(100);
 
+
+        System.out.println(test.multiply(3));
         // System.out.println("multiplyByThree.multiply(2): " + multiplyByThree.multiply(2));
 
         // Multiplier multiplyByFour = new Multiplier(4);
