@@ -14,5 +14,7 @@ public class Main {
         if (jackSparrow.equals("Another object")) {
             System.out.println("Strange things are afoot.");
         }
+
+
     }
 }
