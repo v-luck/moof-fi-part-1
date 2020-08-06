@@ -20,6 +20,17 @@ public class Person {
             return true;
         }
 
-        if (!(compared instanceof ))
+        if (!(compared instanceof Person)) {
+            return false;
+        }
+
+        Person comparedPerson = (Person) compared;
+
+        if (this.name.equals(comparedPerson.name) && this.birthday.equals(comparedPerson.birthday) && this.weight == comparedPerson.weight && this.height == comparedPerson.height) {
+            return true;
+        }
+
+        return false;
+
     }
 }
