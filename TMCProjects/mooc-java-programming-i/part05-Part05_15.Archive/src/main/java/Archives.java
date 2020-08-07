@@ -18,7 +18,11 @@ public class Archives {
 
         Archives comparedArchive = (Archives) compared;
 
-        return this.identifier.equals(comparedArchive.identifier);
+        if (this.identifier.equals(comparedArchive.identifier)) {
+            return true;
+        }
+
+        return false;
     }
 
 
