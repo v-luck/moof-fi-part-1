@@ -2,7 +2,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        // You can use the main to test your classes!
+        Item dog = new Item("dog", 40);
+        System.out.println(dog);
     }
 
 }
