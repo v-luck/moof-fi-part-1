@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main {
@@ -8,5 +7,7 @@ public class Main {
         GradeStatistics grade = new GradeStatistics();
         UserInterface userInterface = new UserInterface(scanner, grade);
         userInterface.start();
+
+
     }
 }

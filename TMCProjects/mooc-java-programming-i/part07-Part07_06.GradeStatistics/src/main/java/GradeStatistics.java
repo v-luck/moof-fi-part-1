@@ -1,64 +1,61 @@
 import java.util.ArrayList;
 
 public class GradeStatistics {
-    private int gradeNumber;
-    private int gradeAmount;
-    private int gradePassingNumber;
-    private int gradePassingAmount;
     private ArrayList<Integer> gradeList;
 
     public GradeStatistics() {
-        this.gradeNumber = 0;
-        this.gradeAmount = 0;
-        this.gradePassingNumber = 0;
-        this.gradePassingAmount = 0;
         this.gradeList = new ArrayList<>();
     }
 
     public void addGrade(int userGradeNumber) {
         if (userGradeNumber >= 0 && userGradeNumber <= 100) {
-            gradeNumber += userGradeNumber;
-            gradeAmount++;
-            this.addingPassingGrade(userGradeNumber);
-            this.gradeList.add(userGradeNumber);
+            gradeList.add(userGradeNumber);
         }
     }
-
-    public void addingPassingGrade(int userGradeNumber) {
-        if (userGradeNumber >= 50) {
-            gradePassingNumber += userGradeNumber;
-            gradePassingAmount ++;
+    public int gradeSum() {
+        int gradeSum = 0;
+        for (int grade : gradeList) {
+            gradeSum += grade;
         }
+        return gradeSum;
     }
-
     public double gradeAverage() {
-        return 1.0 * this.gradeNumber / gradeAmount;
+        return (double) gradeSum() / gradeList.size();
+    }
+    public ArrayList<Integer> passingGradeList() {
+        ArrayList<Integer> passingGradeList = new ArrayList<>();
+        for (int grade : gradeList) {
+            if (grade >= 50) {
+                passingGradeList.add(grade);
+            }
+        }
+        return passingGradeList;
+    }
+    public int passingGradeSum() {
+        int passingGradeSum = 0;
+        for (int grade : passingGradeList()) {
+            passingGradeSum += grade;
+        }
+        return passingGradeSum;
+    }
+    public double passingGradeAverage() {
+        return (double) passingGradeSum() / passingGradeList().size();
     }
 
-    public double gradePassingAverage() {
-        return 1.0 * gradePassingNumber/ gradePassingAmount;
-    }
-
-    public double gradePassingPercentage() {
-        if (gradePassingAmount == 0 || gradeAmount == 0) {
+    public double passingGradePercentage() {
+        if (passingGradeList().isEmpty() || gradeList.isEmpty()) {
             return 0.0;
         }
-        return 100.0 *gradePassingAmount / gradeAmount;
-    }
-
-    public void printGradeDistribution() {
-        for (int grade : gradeList) {
-
-        }
+        return 100.0 *passingGradeList().size() / gradeList.size();
     }
 
     public void printGrades() {
         System.out.println("Point average (all): " + this.gradeAverage());
-        if (this.gradePassingNumber == 0) {
+        if (passingGradeList().size() == 0) {
             System.out.println("Point average (passing): -");
         } else {
-            System.out.println("Point average (passing): " + this.gradePassingAverage());
+            System.out.println("Point average (passing): " + this.passingGradeAverage());
         }
-        System.out.println("Pass percentage: " + gradePassingPercentage());
+        System.out.println("Pass percentage: " + passingGradePercentage());
     }
 }
