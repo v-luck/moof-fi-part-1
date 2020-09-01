@@ -22,7 +22,6 @@ public class ReadingRecipe {
                    String ingredients = fileScanner.nextLine();
                    if (ingredients.isEmpty() || !fileScanner.hasNextLine()) {
                        Food food = new Food(recipeName, cookingTime, ingredientList);
-                       System.out.println(food);
                        break;
                    }
                    ingredientList.add(ingredients);
@@ -33,5 +32,6 @@ public class ReadingRecipe {
         }
 
     }
+
 
 }
