@@ -8,6 +8,7 @@ public class RecipeSearch {
         ReadingRecipe recipe = new ReadingRecipe();
         UserInterface userInterface = new UserInterface(scanner, recipe);
         userInterface.start();
+
     }
 
 }

@@ -3,13 +3,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ReadingRecipe {
-    private ArrayList<Food> foodArrayList;
     private Scanner fileScanner;
 
     public ReadingRecipe() {
     }
 
-    public void scanFile(String fileName) {
+    public ArrayList<Food> scanFile(String fileName) {
+        ArrayList<Food> foodArrayList = new ArrayList<>();
         try {
             fileScanner = new Scanner(Paths.get(fileName));
             while (fileScanner.hasNextLine()) {
@@ -19,18 +19,19 @@ public class ReadingRecipe {
                 ArrayList<String> ingredientList = new ArrayList<>();
 
                 while (fileScanner.hasNextLine()) {
-                   String ingredients = fileScanner.nextLine();
-                   if (ingredients.isEmpty() || !fileScanner.hasNextLine()) {
-                       Food food = new Food(recipeName, cookingTime, ingredientList);
-                       break;
-                   }
-                   ingredientList.add(ingredients);
+                    String ingredients = fileScanner.nextLine();
+                    if (ingredients.isEmpty() || !fileScanner.hasNextLine()) {
+                        foodArrayList.add(new Food(recipeName, cookingTime, ingredientList));
+                        break;
+                    }
+                    ingredientList.add(ingredients);
                 }
             }
         } catch (Exception e) {
             System.out.println("Error" + e);
         }
 
+        return foodArrayList;
     }
 
 

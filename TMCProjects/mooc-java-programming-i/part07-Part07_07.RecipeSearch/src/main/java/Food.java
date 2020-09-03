@@ -10,6 +10,15 @@ public class Food {
         this.cookingTime = cookingTime;
         this.ingredientList = ingredientList;
     }
+    public String returnName() {
+        return recipeName;
+    }
+    public Integer returnCookingTime() {
+        return cookingTime;
+    }
+    public ArrayList<String> returnIngredients() {
+        return ingredientList;
+    }
 
     public String toString() {
         return recipeName + ", cooking time: " + cookingTime;
