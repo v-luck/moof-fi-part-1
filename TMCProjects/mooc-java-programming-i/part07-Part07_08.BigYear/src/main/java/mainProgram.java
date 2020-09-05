@@ -9,6 +9,7 @@ public class mainProgram {
         // as a parameter
 
         Scanner scan = new Scanner(System.in);
+        System.out.println("test");
 
     }
 
