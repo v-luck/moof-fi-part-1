@@ -30,7 +30,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="LiquidContainers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -60,30 +60,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600580888794">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600737110348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600580888794" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600580888794">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600737110348" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600737110347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600580888794" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600580888794">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600737110347" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600737110347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600580888794" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600580888794">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600737110347" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600737110347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600580888794" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1600580746183">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600737110347" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1600734241878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600580746183" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600577082696">
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600734241878" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1600734164670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600577082696" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600734164670" />
     <state x="616" y="200" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600580876100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
