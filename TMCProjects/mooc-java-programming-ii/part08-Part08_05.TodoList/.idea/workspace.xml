@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d94b6da7-db9a-4499-8a66-b16aef747244" name="Default Changelist" comment="" />
+    <list default="true" id="573646bb-da2d-4672-9e6e-87e0b3e33499" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1i26bPHLUVL0cWFIEgeSW32KqTh" />
+  <component name="ProjectId" id="1iDxvMPQ8DBVXkaVkWZgoJe49dy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -31,19 +31,19 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunManager">
-    <configuration name="LiquidContainers2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LiquidContainers2" />
-      <module name="Part08_04.LiquidContainers2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Part08_05.TodoList" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LiquidContainers2" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -52,38 +52,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d94b6da7-db9a-4499-8a66-b16aef747244" name="Default Changelist" comment="" />
-      <created>1601093410539</created>
+      <changelist id="573646bb-da2d-4672-9e6e-87e0b3e33499" name="Default Changelist" comment="" />
+      <created>1601456192805</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601093410539</updated>
+      <updated>1601456192805</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601105964051">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601456723191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601105964051" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601105964051">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601456723191" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601456723190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601105964051" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601105964051">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601456723190" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601456723190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601105964051" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601105964051">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601456723190" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601456723191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601105964051" />
-    <state x="223" y="260" key="SettingsEditor" timestamp="1601235214876">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="223" y="260" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601235214876" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601235179220">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601235179220" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601456723191" />
   </component>
 </project>
