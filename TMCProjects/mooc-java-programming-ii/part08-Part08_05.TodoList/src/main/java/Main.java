@@ -9,19 +9,8 @@ public class Main {
         TodoList list = new TodoList();
         Scanner scanner = new Scanner(System.in);
 
-        list.add("himuffucka");
-        list.add("did this mfoffuer");
-        list.add("what di hee");
-        list.print();
-        list.remove(2);
-        list.print();
-        list.remove(2);
-        list.remove(2);
-        list.remove(2);
-        list.print();
-
-        //UserInterface ui = new UserInterface(list, scanner);
-        //ui.start();
+        UserInterface ui = new UserInterface(list, scanner);
+        ui.start();
 
     }
 }
