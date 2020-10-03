@@ -6,7 +6,7 @@ public class UserInterface {
 
     public UserInterface(TodoList todoList, Scanner scanner) {
         this.todoList = todoList;
-        this.scanner = new Scanner(System.in);
+        this.scanner = scanner;
     }
 
     public void start() {
