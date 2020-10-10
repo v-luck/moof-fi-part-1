@@ -23,6 +23,7 @@ public class Program {
                 continue;
             }
             System.out.println(key);
+            System.out.println("test");
         }
     }
 
