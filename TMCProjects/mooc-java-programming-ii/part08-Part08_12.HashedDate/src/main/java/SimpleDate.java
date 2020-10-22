@@ -51,4 +51,9 @@ public class SimpleDate {
         return this.year - other.year - yearRemoved;
     }
 
+    public int hashCode() {
+        if (this.)
+    }
+
+
 }
