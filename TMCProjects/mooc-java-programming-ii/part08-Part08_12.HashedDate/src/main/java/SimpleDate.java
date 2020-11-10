@@ -52,8 +52,11 @@ public class SimpleDate {
     }
 
     public int hashCode() {
-        if (this.)
+        int hash = 69;
+        hash *= this.day;
+        hash *= this.month;
+        hash *= this.year;
+        return hash;
     }
-
 
 }

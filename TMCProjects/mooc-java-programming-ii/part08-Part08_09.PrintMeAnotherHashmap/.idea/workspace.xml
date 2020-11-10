@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a09b8bcc-0071-4391-8dcb-6d701de30221" name="Default Changelist" comment="" />
+    <list default="true" id="a09b8bcc-0071-4391-8dcb-6d701de30221" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/libraries/Maven__fi_helsinki_cs_tmc_edu_test_utils_0_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/.tmcproject.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/Part08_12.HashedDate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/src/main/java/SimpleDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part08-Part08_12.HashedDate/src/test/java/SimpleDateTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
